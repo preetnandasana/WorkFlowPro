@@ -1,9 +1,6 @@
 # Employee_Management_System
 Employee Management System is a web application developed using Django(Backend) which manages the record of employees, their salary, attendance. publish public notices, assign works to employees, request can be sent employees.  
 
-
-# Employee Management System - Django(Python)
-
 Employee Management System built in a Python Framework Django and PostgreSQL as Database. This webapp include the functionality like...
 
 1. Login / Registration (Admin, Employee)
