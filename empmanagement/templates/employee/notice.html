@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="home">
+    <div class="text">
+        Notices    
+    </div>
+    <div class="max-w-xl mx-auto">
+      <div
+         class="p-4 max-w-md bg-white rounded-lg border shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700"
+         >
+      <div class="flex justify-between items-center mb-4">
+         <h3 class="text-xl font-bold leading-none text-gray-900 dark:text-white">
+            Notices
+         </h3>
+      </div>
+      <div class="flow-root">
+      <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700">
+      {% for info in notices %}
+      <div class="flex items-center space-x-4">
+         <div class="flex-1 min-w-0">
+            <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+               <b>{{info.title}}</b>
+            </p>
+         </div>
+      </div>
+      {{info.publishDate}}<br>
+      <a style="color:blueviolet;" href = "{% url 'noticedetail' id=info.Id %}">View Details</a>
+      <br>
+      <hr>
+      {% endfor %}
+    
+</section>
+{% endblock %}
