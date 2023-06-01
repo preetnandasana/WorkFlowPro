@@ -1,7 +1,7 @@
 # WorkFlowPro
 Developed an employee management system with comprehensive features, including employee information management, salary tracking, attendance tracking, publish notices/announcements, and streamlined workflow & request management. 
 
-Employee Management System built in a Python Framework Django and PostgreSQL as Database. This webapp include the functionality like...
+WorkFlowPro built in a Python Framework Django and PostgreSQL as Database. This webapp include the functionality like...
 
 1. Login / Registration (Admin, Employee)
 2. Add / Manage Employee (Admin)
